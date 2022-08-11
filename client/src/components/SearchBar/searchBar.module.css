@@ -1,0 +1,95 @@
+.searchBar{
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px rgba(8,34,78,.4);
+    margin-bottom: 20px;
+}
+.input_text{
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #023880;
+    outline: none;
+}
+
+.input_btn{
+    border: 0;
+    border-left: 1px solid #ccc;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #023880;
+    font-weight: 600;
+}
+.input_btn:hover{
+    cursor: pointer;
+}
+
+.etiquetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.etiquetas span{
+    background-color: #023880;
+    color:#fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .input_text{
+        width: 180px;
+        padding: 8px 10px;
+        font-size: 14px;
+        
+    }
+}
+@media only screen and (min-width: 400px) {
+    .input_text{
+        width: 300px;
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .input_text{
+        width: 350px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .input_text{
+        width: 400px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .etiquetas span{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .input_text{
+        width: 600px;
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+}
+

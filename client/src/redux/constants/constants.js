@@ -1,0 +1,10 @@
+export const GET_ALL_TESTS = 'GET_ALL_TESTS';
+export const SEARCH_TESTS = 'SEARCH_TESTS';
+export const SEARCH_TESTS_EXAMEN = 'SEARCH_TESTS_EXAMEN';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_TO_CART = 'REMOVE_TO_CART';
+export const ADD_ONE_FROM_CART = 'ADD_ONE_FROM_CART';
+export const REMOVE_ONE_FROM_CART = 'REMOVE_ONE_FROM_CART';
+export const REMOVE_ALL_FROM_CART = 'REMOVE_ALL_FROM_CART';
+export const CREATE_CART = 'CREATE_CART';
+export const CLEAR_CART = 'CLEAR_CART';

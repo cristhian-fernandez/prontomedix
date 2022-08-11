@@ -1,0 +1,52 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(8,34,78,.9);
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.pagination_arrow{
+    background-color: rgba(8,34,78,.9);
+    padding: 3px 15px 4px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    border: 1px solid rgba(8,34,78,.9);
+    cursor: pointer;
+}
+.pagination_arrow__right{
+    padding: 4px 13px 4px 13px;
+}
+.pagination_dogs{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pagination_input{
+    width: 30px;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(8,34,78,.9);
+    position: relative;
+    top: 1px;
+    background-color: transparent;
+}
+
+.pagination button:disabled{
+    background-color: rgba(121, 127, 138, 0.9);
+    border: 1px solid rgba(121, 127, 138, 0.9);
+    cursor: no-drop;    
+}
+
+
+
+

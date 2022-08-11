@@ -1,0 +1,10 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.center h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #dc3545;
+}

@@ -1,0 +1,86 @@
+.testCard {
+    border: 1px solid #d3d9df;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    justify-content: space-between;
+    align-items: center;
+    color: #023880;
+}
+.testCard_item{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.testCard_item>div{
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.testCard h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.testCard p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin: 0;
+}
+
+.add{
+    background-color: #023880;
+    color: #fff;
+    border: 1px solid #023880;
+    border-radius: 5px;
+    padding: 5px 10px;;
+    font-size: 15px;
+    font-weight: 700;
+    width: 110px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: #56a4f8;
+    border: 1px solid #56a4f8;
+}
+.added{
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    padding: 5px 10px;;
+    font-size: 15px;
+    font-weight: 700;
+    width: 110px;
+}
+
+.added a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.count{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.testCard_descripcion{
+    display: flex;
+    margin-right: 10px;
+}
+
+.testCard_descripcion p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
