@@ -13,7 +13,8 @@ import {
 
 import axios from "axios";
 
-const urlTest = 'http://localhost:3001/api/tests';
+// const urlTest = 'http://localhost:3001/api/tests';
+const urlTest = '/api/tests';
 
 
 export const getAllTests = () => {
