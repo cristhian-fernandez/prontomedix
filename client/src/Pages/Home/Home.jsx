@@ -11,6 +11,7 @@ import agendar from '../../img/agendar.png';
 import datos_personales from '../../img/datos_personales.png';
 import muestras from '../../img/muestras.png';
 import resultados from '../../img/resultados.png';
+import Whatsapp from '../../components/Whatsapp/Whatshap';
 
 function Home() {
     const tests = useSelector((state) => state.tests);
@@ -84,6 +85,10 @@ function Home() {
                 <p>
                     Llámanos al <a href='tel:+51913452643' className={styles.phone}> <i className='fa-solid fa-phone'></i>+51913452643</a>
                 </p>   
+                <p>
+                    O escríbenos al Whatsapp 
+                    <Whatsapp />
+                </p>
             
             </div>
             
