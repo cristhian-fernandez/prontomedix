@@ -13,7 +13,7 @@ function Nav() {
             <nav className="navbar bg-light fixed-top">
                 <div className="container-fluid">
                     <picture>
-                        <Link to='/home'><img src={logo} alt="logo_prontomedicx" /></Link>
+                        <Link to='/'><img src={logo} alt="logo_prontomedicx" /></Link>
                     </picture>
                     <div className={styles.nav_right}>
                         <a href="#cart">Canasta</a>
