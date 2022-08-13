@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import styles from  './About.module.css';
 
 function About() {
+    const subscribe = () => {
+        
+    }
     return (
         <div className={styles.about}>
             <h2>¿Quiénes somos ?</h2>
@@ -15,7 +18,7 @@ function About() {
             <p>Suscríbete a nuestra comunidad saludable para promociones , novedades y contenido útil</p>
             <div className={styles.suscripcion}>
                 <input type="text" placeholder='email@ejemplo.com'/>
-                <button>Unirse a nuestra lista de correo</button>
+                <button onClick={subscribe}>Unirse a nuestra lista de correo</button>
             </div>
         </div>
     );
