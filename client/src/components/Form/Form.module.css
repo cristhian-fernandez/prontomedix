@@ -48,7 +48,14 @@ textarea{
 }
 
 @media only screen and (max-width: 650px) {
-    .form_input input, select{
-        width: 100%;
+    .form_input {
+        width: 300px;
+        /* display: none; */
     }
+    form{
+        /* display: none; */
+    }
+    /* .form_input input, select{
+        width: 100;
+    } */
 }
