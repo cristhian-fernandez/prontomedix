@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav';
+import Whatsapp from './components/Whatsapp/Whatshap';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import PageNotFound from './Pages/PageNotFound/PageNotFound';
@@ -26,10 +27,9 @@ function App() {
                 <Work />
                 <Footer />
               </Route>
-
               <Route path="*" component={PageNotFound}/>
-
             </Switch>
+            <Whatsapp /> 
     </div>
   );
 }
