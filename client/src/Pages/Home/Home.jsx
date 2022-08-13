@@ -54,12 +54,13 @@ function Home() {
                     <div className={styles.seccion_works}>
                         <p>Recibe tus resultados ese mismo día vía correo y whatsapp.</p>
                         <img className={`${styles.seccion_works_img} ${styles.seccion_works_result}`} src={resultados} alt="agendar" />
+                        <div id='agrega'></div>
                     </div>
                 </div>
             </div>
-            <div id='agrega'></div>
+            
             <div className={styles.seccion_center}>
-                <p className={styles.seccion_texto}>Busca y agrega los análisis que deseas cotizar y agendar, si estas de acuerdo llena los datos y envía el pedido:</p>
+                <p className={`${styles.seccion_texto} ${styles.seccion_text_search}`}>Busca y agrega los análisis que deseas cotizar y agendar, si estas de acuerdo llena los datos y envía el pedido:</p>
             </div>
             <div className={styles.center}>
                 <SearchBar />

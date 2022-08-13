@@ -24,6 +24,7 @@
 .form select{
     background-color: transparent;
     outline: none;
+    width: 100%;
 }
 .btn_order{
     border: 1px solid #023880;
@@ -47,7 +48,7 @@ textarea{
 }
 
 @media only screen and (max-width: 650px) {
-    .form_input{
-        width: auto;
+    .form_input input, select{
+        width: 100%;
     }
 }

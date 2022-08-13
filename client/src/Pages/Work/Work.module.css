@@ -1,0 +1,85 @@
+.work{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work h2{
+    font-size: 40px;
+    color: rgb(2, 56, 126);
+    font-weight: 700;
+}
+
+.work img{
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_input input, select{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 320px;
+    padding: 5px 15px;
+    font-size: 15px;
+    color:rgb(32, 44, 61)
+}
+
+.form_input p{
+    margin-bottom: 8px;
+}
+.danger{
+    color: red;
+    font-size: 12px;
+}
+
+.btn_send{
+    background-color: rgb(30, 40, 92);
+    border:1px solid rgb(30, 40, 92);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+.btn_send:hover{
+    background-color: rgb(10, 23, 88);
+}
+
+.btn_home{
+    background-color: red;
+    padding: 6px 15px;
+    border-radius: 8px;
+    margin-top: 30px;   
+}
+.btn_home a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn_home:hover{
+    background-color: rgb(104, 22, 22);
+}
+@media only screen and (max-width: 600px) {
+    .work{
+        font-size: 18px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .work h2{
+        font-size: 35px;
+    }
+    .form_input input{
+        
+    }
+}

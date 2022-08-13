@@ -89,7 +89,7 @@ function Form(props) {
         const date = new Date();
         if(Object.entries(error).length === 0 && cart.length>0){
             let text = '';
-            text += `Hola! Prontomedic soy *${input.name}*, quiero hacer el siguiente *Pedido:* `;
+            text += `Hola! Prontomedic soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido:* `;
             text += cart.map(element => { return element.nombre_prueba}).join(', ');
             text += `. *Email:* ${input.email}`;
             text += `. *Celular:* ${input.phone}`;
@@ -272,11 +272,14 @@ export function validateInput (input){
     if(input.horario === '0'){
       error.horario = '* Seleccione un distrito';
     }
-    if(!input.address){
+    // if(!input.address){
+    //     error.address = '* Dirección es requerida';
+    // }else if(!/^[A-Za-z0-9 ]+$/.test(input.address)){
+    //     error.address = '* Dirección es inválido';
+    // }
+    if(input.address.length ===0){
         error.address = '* Dirección es requerida';
-    }else if(!/^[A-Za-z0-9 ]+$/.test(input.address)){
-        error.address = '* Dirección es inválido';
-    }
+      }
     if(!input.phone){
         error.phone = '* Celular es requerido';
     }else if(!/^[0-9]{9}/.test(input.phone)){
@@ -287,6 +290,6 @@ export function validateInput (input){
 
 export function getDistritos (){
     const distritos = [
-        'San miguel','Pueblo libre','Breña','Cercado','Magdalena','Jesus Maria','Miraflores','San isidro','Lince','San Borja ','La molina'];
+        'San miguel','Santiago de Surco','Pueblo libre','Breña','Cercado','Magdalena','Jesus Maria','Miraflores','San isidro','Lince','San Borja ','La molina'];
     return distritos;
 }
