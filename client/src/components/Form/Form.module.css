@@ -45,3 +45,9 @@ textarea{
     font-size: 15px;
     color: rgba(8,34,78,.9);
 }
+
+@media only screen and (max-width: 650px) {
+    .form_input{
+        width: auto;
+    }
+}

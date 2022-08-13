@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import es from 'date-fns/locale/es';
 registerLocale('es',es);
 
-function Form() {
+function Form(props) {
     const distritos = getDistritos ();
     const cart = useSelector((state) => state.cart);
     const dispatch = useDispatch();
@@ -96,6 +96,7 @@ function Form() {
             text += `. *Distrito:* ${input.distrito}`;
             text += `. *Fecha entrega:* ${startDate.toISOString().split('T')[0]}`;
             text += `. *Hora entrega:* ${input.horario}`;
+            text += `. *Pago total:* ${props.pagoTotal}`;
             text += `. *Dirección:* ${input.address}`;
             text += `. *Referencia:* ${input.referencia}`;
             text += `. Muchas gracias! `;
@@ -112,8 +113,10 @@ function Form() {
                 address: input.address,
                 referencia: input.referencia,
                 cart: cart,
+                pagoTotal: props.pagoTotal,
                 date: date.toLocaleString()
             }
+            console.log('newOrder',newOrder);
             dispatch(createCart(newOrder));
             dispatch(clearCart());
             setInput({
@@ -126,7 +129,7 @@ function Form() {
                 address: "",
                 referencia: ""
             });
-            alert('Se redireccionará al Whatsapp');
+            alert('Su orden de análisis se enviará al WhatsApp y al correo inmediatamente.');
             window.open(urlWhatsapp);
         }else{
             if(input.name === '') return alert('Ingrese su nombre');
@@ -242,16 +245,22 @@ export default Form;
 
 export function validateInput (input){
     let error = {}
-    if(!input.name){
+    if(input.name.length === 0){
       error.name = '* Nombre es requerido';
-    }else if(!/^[A-Za-z ]+$/.test(input.name)){
-      error.name = '* Nombre es inválido, solo acepta letras';
     }
-    if(!input.lastname){
+    // if(!input.name){
+    //   error.name = '* Nombre es requerido';
+    // }else if(!/^[A-Za-z ]+$/.test(input.name)){
+    //   error.name = '* Nombre es inválido, solo acepta letras';
+    // }
+    if(input.lastname.length ===0){
       error.lastname = '* Apellido es requerido';
-    }else if(!/^[A-Za-z ]+$/.test(input.lastname)){
-      error.lastname = '* Apellido es inválido, solo acepta letras';
     }
+    // if(!input.lastname){
+    //   error.lastname = '* Apellido es requerido';
+    // }else if(!/^[A-Za-z ]+$/.test(input.lastname)){
+    //   error.lastname = '* Apellido es inválido, solo acepta letras';
+    // }
     if(!input.email){
       error.email = '* Email es requerido';
     }else if(!/\S+@\S+\.\S+/.test(input.email)){
@@ -259,6 +268,9 @@ export function validateInput (input){
     }
     if(input.distrito === '0'){
       error.distrito = '* Seleccione un distrito';
+    }
+    if(input.horario === '0'){
+      error.horario = '* Seleccione un distrito';
     }
     if(!input.address){
         error.address = '* Dirección es requerida';
@@ -275,13 +287,6 @@ export function validateInput (input){
 
 export function getDistritos (){
     const distritos = [
-        'Ancón','Ate Vitarte','Barranco','Breña','Carabayllo','Chaclacayo','Chorrillos','Cieneguilla',
-        'Comas','El Agustino','Independencia','Jesús María','La Molina','La Victoria','Lima','Lince',
-        'Los Olivos','Lurigancho','Lurín','Magdalena del Mar','Miraflores','Pachacamac','Pucusana',
-        'Pueblo Libre','Puente Piedra','Punta Hermosa','Punta Negra','Rímac','San Bartolo',
-        'San Borja','San Isidro','San Juan de Lurigancho','San Juan de Miraflores','San Luis',
-        'San Martín de Porres','San Miguel','Santa Anita','Santa María del Mar','Santa Rosa','Santiago de Surco','Surquillo','Villa El Salvador','Villa María del Triunfo'
-
-    ];
+        'San miguel','Pueblo libre','Breña','Cercado','Magdalena','Jesus Maria','Miraflores','San isidro','Lince','San Borja ','La molina'];
     return distritos;
 }

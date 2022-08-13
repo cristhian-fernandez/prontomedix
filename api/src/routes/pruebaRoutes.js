@@ -49,7 +49,7 @@ router.post( '/' , async(req, res,next)=>{
                 to: email, // list of receivers
                 subject: "Pedido de Análisis Médico 💊", // 
                 html: `
-                    <b> Hola ${name} </b>
+                    <b> Hola ${name} ${lastname}</b>
                     <div><b>Celular:</b> ${phone}</div>
                     <div><b>Distrito:</b> ${distrito}</div>
                     <div><b>Fecha entrega:</b> ${fecha_seleccionada}</div>
@@ -57,6 +57,7 @@ router.post( '/' , async(req, res,next)=>{
                     <div><b>Dirección:</b> ${address}</div>
                     <div><b>Referencia:</b> ${referencia}</div>
                     <div><b>Pedido:</b> ${bodyEmail}</div>
+                    <div style="margin-top: 15px">En minutos le estaremos enviando los datos del personal que le visitara para la toma de muestra en la fecha y hora que indico. Gracias por preferir Prontomedix!</div>
                 `
             });
             console.log('pedido hecho');

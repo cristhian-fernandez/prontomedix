@@ -54,7 +54,7 @@ function Cart() {
                     <div className={styles.subtittleResume}><h2> Toma de Muestra:</h2><span>S/.{monto_agregado}.00</span></div>
                     <div className={styles.totalResume}><h2> Monto a pagar:</h2><span>S/.{subtotal + monto_agregado}.00</span></div>
                 </div>
-                <Form />
+                <Form pagoTotal={subtotal + monto_agregado}/>
             </div>
         </div>
     );

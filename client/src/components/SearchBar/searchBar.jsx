@@ -29,20 +29,20 @@ function SearchBar() {
 
     return (
         <div>
+            <div className={styles.etiquetas}>
+                <span onClick={()=> {onClickExamen(0)}} id='selected_0' >Todos</span>
+                <span onClick={()=> {onClickExamen(1)}} id='selected_1' >De sangre</span>
+                <span onClick={()=> {onClickExamen(2)}} id='selected_2' >De orina</span>
+                <span onClick={()=> {onClickExamen(4)}} id='selected_4' >Covid 19</span>
+                <span onClick={()=> {onClickExamen(3)}} id='selected_3' >Otros</span>
+                <span onClick={()=> {onClickExamen(5)}} id='selected_5' >Perfiles</span>
+            </div>
             <form id='searchBar' onSubmit={onSubmit}>
                 <div className={styles.searchBar}>
                     <input type="text" name='search' value={search} placeholder='Buscar análisis médico ...' onChange={onInputChange} className={styles.input_text}/>
                     <input type="submit" value="Buscar" className={styles.input_btn}/>
                 </div>
             </form>
-            <div className={styles.etiquetas}>
-                <span onClick={()=> {onClickExamen(0)}} id='selected_0' >Todos</span>
-                <span onClick={()=> {onClickExamen(1)}} id='selected_1' >Análisis de sangre</span>
-                <span onClick={()=> {onClickExamen(2)}} id='selected_2' >Análisis de orina</span>
-                <span onClick={()=> {onClickExamen(4)}} id='selected_4' >Análisis Covid 19</span>
-                <span onClick={()=> {onClickExamen(3)}} id='selected_3' >Otros</span>
-                <span onClick={()=> {onClickExamen(5)}} id='selected_5' >Perfiles</span>
-            </div>
         </div>
     );
 }

@@ -45,19 +45,20 @@ function Home() {
                     </div>
                     <div className={styles.seccion_works}>
                         <p>En minutos recibe la foto y datos personales del personal tomador de muestra que te visitará.</p>
-                        <img src={datos_personales} alt="agendar" />
+                        <img className={styles.seccion_works_img} src={datos_personales} alt="agendar" />
                     </div>
                     <div className={styles.seccion_works}>
                         <p>En la hora indicada , te tomaremos la muestra en minutos.</p>
-                        <img src={muestras} alt="agendar" />
+                        <img className={styles.seccion_works_img} src={muestras} alt="agendar" />
                     </div>
                     <div className={styles.seccion_works}>
                         <p>Recibe tus resultados ese mismo día vía correo y whatsapp.</p>
-                        <img src={resultados} alt="agendar" />
+                        <img className={`${styles.seccion_works_img} ${styles.seccion_works_result}`} src={resultados} alt="agendar" />
                     </div>
                 </div>
             </div>
-            <div className={styles.seccion_center} id='agrega'>
+            <div id='agrega'></div>
+            <div className={styles.seccion_center}>
                 <p className={styles.seccion_texto}>Busca y agrega los análisis que deseas cotizar y agendar, si estas de acuerdo llena los datos y envía el pedido:</p>
             </div>
             <div className={styles.center}>
@@ -71,8 +72,8 @@ function Home() {
             <Cart />
 
             <div className={`${styles.seccion_orderMedica} ${styles.bottom_30}`}>
-                <p className={`${styles.seccion_texto} ${styles.inline} ${styles.btn_receta}`}>¿ No encuentras tu análisis? y tienes orden médica (opcional): 
-                <a className={styles.btn_ordenMedica} href="https://api.whatsapp.com/send?phone=+51913452643&text=Buenas%20Prontomedix,%20quiero%20adjuntar%20mi%20receta%20m%C3%A9dica." target='_blank' rel="noreferrer" >Agéndalo Aquí</a></p>
+                <p className={`${styles.seccion_texto} ${styles.inline} ${styles.btn_receta}`}>¿ No encuentras tu análisis? y tienes orden médica (opcional): </p>
+                <a className={styles.btn_ordenMedica} href="https://api.whatsapp.com/send?phone=+51913452643&text=Buenas%20Prontomedix,%20quiero%20adjuntar%20mi%20receta%20m%C3%A9dica." target='_blank' rel="noreferrer" >Agéndalo Aquí</a>
                 
             </div>
             <div className={styles.text_agendar}>

@@ -13,10 +13,10 @@ import {
 
 import axios from "axios";
 
-// const urlTest = 'http://localhost:3001/api/tests';
-const urlTest = '/api/tests';
+const urlTest = 'http://localhost:3001/api/tests';
+// const urlTest = 'https://bdprontomedix.herokuapp.com/api/tests';
 
-
+console.log('urlTest',urlTest);
 export const getAllTests = () => {
     
     return async (dispatch) => {

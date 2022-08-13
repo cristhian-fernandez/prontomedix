@@ -76,6 +76,7 @@
 .testCard_descripcion{
     display: flex;
     margin-right: 10px;
+    flex-direction: row;
 }
 
 .testCard_descripcion p{
@@ -83,4 +84,13 @@
     font-weight: 500;
     margin-left: 15px;
     margin-bottom: 0;
+}
+
+@media only screen and (max-width: 650px) {
+    .testCard_descripcion{
+        flex-direction: column;
+    }
+    .testCard_item svg{
+        display: none;
+    }
 }
