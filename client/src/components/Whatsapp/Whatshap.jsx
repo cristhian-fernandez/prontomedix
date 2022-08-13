@@ -1,0 +1,20 @@
+import styles from  './Whatsapp.module.css';
+
+function Whatsapp() {
+    const onClick = ()=>{
+        let text = '';
+            text += `Hola! Prontomedic, quiero hacerles algunas consulta`;
+            text += `. Muchas gracias! `;
+            const encodeText = encodeURI(text);
+            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51913452643&text=${encodeText}`;
+            window.open(urlWhatsapp);
+    }
+    return (
+        <div className={styles.whatsapp}>
+            
+            <button onClick={onClick}><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
+    );
+}
+
+export default Whatsapp;
