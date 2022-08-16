@@ -43,7 +43,7 @@ function Work() {
             text += `. *Distrito:* ${input.distrito}`;
             text += `. Muchas gracias! `;
             const encodeText = encodeURI(text);
-            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51913452643&text=${encodeText}`;
+            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51973485394&text=${encodeText}`;
             const newMessage = {
                 name: input.name,
                 lastname: input.lastname,

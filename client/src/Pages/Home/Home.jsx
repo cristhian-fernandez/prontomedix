@@ -75,7 +75,7 @@ function Home() {
 
             <div className={`${styles.seccion_orderMedica} ${styles.bottom_30}`}>
                 <p className={`${styles.seccion_texto} ${styles.inline} ${styles.btn_receta}`}>¿ No encuentras tu análisis? y tienes orden médica (opcional): </p>
-                <a className={styles.btn_ordenMedica} href="https://api.whatsapp.com/send?phone=+51913452643&text=Buenas%20Prontomedix,%20quiero%20adjuntar%20mi%20receta%20m%C3%A9dica." target='_blank' rel="noreferrer" >Agéndalo Aquí</a>
+                <a className={styles.btn_ordenMedica} href="https://api.whatsapp.com/send?phone=+51973485394&text=Buenas%20Prontomedix,%20quiero%20adjuntar%20mi%20receta%20m%C3%A9dica." target='_blank' rel="noreferrer" >Agéndalo Aquí</a>
                 
             </div>
             <div className={styles.text_agendar}>
@@ -83,7 +83,7 @@ function Home() {
                     ¿Necesitas ayuda para agendar?
                 </p>
                 <p>
-                    Llámanos al <a href='tel:+51913452643' className={styles.phone}> <i className='fa-solid fa-phone'></i>+51913452643</a>
+                    Llámanos al <a href='tel:+51973485394' className={styles.phone}> <i className='fa-solid fa-phone'></i>+51973485394</a>
                 </p>   
                 <p>
                     O escríbenos al Whatsapp 
