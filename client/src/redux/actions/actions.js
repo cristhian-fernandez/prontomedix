@@ -8,7 +8,8 @@ import {
     ADD_ONE_FROM_CART,
     REMOVE_ONE_FROM_CART,
     CREATE_CART,
-    CLEAR_CART
+    CLEAR_CART,
+    EMAIL_SUSCRIBE
 } from "../constants/constants";
 
 import axios from "axios";
@@ -16,7 +17,6 @@ import axios from "axios";
 // const urlTest = 'http://localhost:3001/api/tests';
 const urlTest = 'https://bdprontomedix.herokuapp.com/api/tests';
 
-console.log('urlTest',urlTest);
 export const getAllTests = () => {
     
     return async (dispatch) => {
@@ -79,6 +79,19 @@ export const createCart = (values) => {
         .then(responde => {
             dispatch({
                 type : CREATE_CART,
+                payload : responde.data
+            })
+        })
+        .catch( e => console.log(e));
+    }
+}
+
+export const suscribe = (values) => {
+    return async (dispatch) => {
+        axios.post(urlTest+'/suscribe', values)
+        .then(responde => {
+            dispatch({
+                type : EMAIL_SUSCRIBE,
                 payload : responde.data
             })
         })

@@ -45,9 +45,9 @@ router.post( '/' , async(req, res,next)=>{
     try {
         if (name && lastname && email && phone && distrito && address && date) {
             await transporter.sendMail({
-                from: '"ProntoMedix" <startupabastoz@gmail.com>', // sender address
-                to: email, // list of receivers
-                subject: "Pedido de Análisis Médico 💊", // 
+                from: '"ProntoMedix" <prontomedix@gmail.com>', // sender address
+                to: `${email}, prontomedix@gmail.com`, // list of receivers
+                subject: "Pedido de Análisis Médico 🔬🩸🧪", // 
                 html: `
                     <b> Hola ${name} ${lastname}</b>
                     <div><b>Celular:</b> ${phone}</div>
@@ -61,6 +61,26 @@ router.post( '/' , async(req, res,next)=>{
                 `
             });
             console.log('pedido hecho');
+        }else{
+            throw new Error('Falta ingresar algún dato');
+        }
+    } catch (error) {
+        next(error);
+    }
+});
+router.post( '/suscribe' , async(req, res,next)=>{ 
+    const { email} = req.body;
+    try {
+        if (email) {
+            await transporter.sendMail({
+                from: '"ProntoMedix" <prontomedix@gmail.com>', // sender address
+                to: `${email}, prontomedix@gmail.com`,
+                subject: "Gracias por suscribirte 📨", // 
+                html: `
+                    <div>Gracias por sumarte a nuestra comunidad donde tendrás información valiosa sobre bienestar, salud y más .</div>
+                `
+            });
+            console.log('mensaje enviado');
         }else{
             throw new Error('Falta ingresar algún dato');
         }

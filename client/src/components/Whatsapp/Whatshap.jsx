@@ -3,10 +3,10 @@ import styles from  './Whatsapp.module.css';
 function Whatsapp() {
     const onClick = ()=>{
         let text = '';
-            text += `Hola! Prontomedic, quiero hacerles algunas consulta`;
+            text += `Hola! Prontomedix, quiero hacerles algunas consulta`;
             text += `. Muchas gracias! `;
             const encodeText = encodeURI(text);
-            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51913452643&text=${encodeText}`;
+            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51973485394&text=${encodeText}`;
             window.open(urlWhatsapp);
     }
     return (

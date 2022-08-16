@@ -36,7 +36,7 @@ function Work() {
         e.preventDefault();
         if(Object.entries(error).length === 0){
             let text = '';
-            text += `Hola! Prontomedic soy *${input.name} ${input.lastname}*, quiero trabajar con ustedes, estos son mis datos: `;
+            text += `Hola! Prontomedix soy *${input.name} ${input.lastname}*, quiero trabajar con ustedes, estos son mis datos: `;
             text += `. *Email:* ${input.email}`;
             text += `. *Celular:* ${input.phone}`;
             text += `. *Carrera:* ${input.carrera}`;

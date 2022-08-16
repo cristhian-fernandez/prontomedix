@@ -89,7 +89,7 @@ function Form(props) {
         const date = new Date();
         if(Object.entries(error).length === 0 && cart.length>0){
             let text = '';
-            text += `Hola! Prontomedic soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido:* `;
+            text += `Hola! Prontomedix soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido:* `;
             text += cart.map(element => { return element.nombre_prueba}).join(', ');
             text += `. *Email:* ${input.email}`;
             text += `. *Celular:* ${input.phone}`;
@@ -101,7 +101,7 @@ function Form(props) {
             text += `. *Referencia:* ${input.referencia}`;
             text += `. Muchas gracias! `;
             const encodeText = encodeURI(text);
-            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51913452643&text=${encodeText}`;
+            const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51973485394&text=${encodeText}`;
             const newOrder = {
                 name: input.name,
                 lastname: input.lastname,
@@ -116,7 +116,7 @@ function Form(props) {
                 pagoTotal: props.pagoTotal,
                 date: date.toLocaleString()
             }
-            console.log('newOrder',newOrder);
+            // console.log('newOrder',newOrder);
             dispatch(createCart(newOrder));
             dispatch(clearCart());
             setInput({

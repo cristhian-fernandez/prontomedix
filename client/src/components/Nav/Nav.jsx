@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link} from 'react-router-dom';
 import styles from  './Nav.module.css';
-import logo from '../../img/logo_prontomedicx.png';
+import logo from '../../img/logo_prontomedix.png';
 import { useSelector } from 'react-redux';
 
 function Nav() {
@@ -13,7 +13,7 @@ function Nav() {
             <nav className="navbar bg-light fixed-top">
                 <div className="container-fluid">
                     <picture>
-                        <Link to='/'><img src={logo} alt="logo_prontomedicx" /></Link>
+                        <Link to='/'><img src={logo} alt="logo_prontomedix" /></Link>
                     </picture>
                     <div className={styles.nav_right}>
                         <a href="#cart">Canasta</a>

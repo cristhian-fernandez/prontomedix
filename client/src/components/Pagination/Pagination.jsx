@@ -15,7 +15,6 @@ function Pagination({countPage, page, setPage}) {
     }
 
     const onChange = (e) => {
-        console.log(e.target.value);
         setInput(e.target.value)
     }
     const onKeyDown = (e) => {
