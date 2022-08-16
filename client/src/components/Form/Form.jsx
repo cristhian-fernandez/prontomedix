@@ -139,7 +139,7 @@ function Form(props) {
             if(error.email) return alert(error.email);
             if(error.distrito) return alert(error.distrito);
             if(error.address) return alert(error.address);
-            if(cart.length === 0) return alert ('Seleccione al menos una análisis médico');
+            if(cart.length === 0) return alert ('Seleccione al menos una análisis clínico');
         }
     }
     return (

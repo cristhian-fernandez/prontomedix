@@ -39,7 +39,7 @@ function SearchBar() {
             </div>
             <form id='searchBar' onSubmit={onSubmit}>
                 <div className={styles.searchBar}>
-                    <input type="text" name='search' value={search} placeholder='Buscar análisis médico ...' onChange={onInputChange} className={styles.input_text}/>
+                    <input type="text" name='search' value={search} placeholder='Buscar análisis clínico ...' onChange={onInputChange} className={styles.input_text}/>
                     <input type="submit" value="Buscar" className={styles.input_btn}/>
                 </div>
             </form>

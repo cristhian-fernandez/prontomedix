@@ -47,7 +47,7 @@ router.post( '/' , async(req, res,next)=>{
             await transporter.sendMail({
                 from: '"ProntoMedix" <prontomedix@gmail.com>', // sender address
                 to: `${email}, prontomedix@gmail.com`, // list of receivers
-                subject: "Pedido de Análisis Médico 🔬🩸🧪", // 
+                subject: "Pedido de Análisis Clínico 🔬🩸🧪", // 
                 html: `
                     <b> Hola ${name} ${lastname}</b>
                     <div><b>Celular:</b> ${phone}</div>
