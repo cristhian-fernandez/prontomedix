@@ -117,8 +117,6 @@
     justify-content: center;
 }
 
-
-
 .text_agendar{
     text-align: center;
     font-size: 22px;
@@ -189,6 +187,9 @@
     }
     .text_agendar p{
         margin-bottom: 0;
+    }
+    .text_agendar a{
+        font-size: 18px;
     }
 }
 
