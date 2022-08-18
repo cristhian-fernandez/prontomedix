@@ -98,6 +98,12 @@ export const suscribe = (values) => {
         .catch( e => console.log(e));
     }
 }
+export const work = (values) => {
+    return async () => {
+        axios.post(urlTest+'/work', values)
+        .catch( e => console.log(e));
+    }
+}
 
 export const clearCart = () => {
     return {

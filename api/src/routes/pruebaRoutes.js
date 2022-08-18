@@ -88,5 +88,34 @@ router.post( '/suscribe' , async(req, res,next)=>{
         next(error);
     }
 });
+router.post( '/work' , async(req, res,next)=>{ 
+    const { name, lastname,email,phone,distrito,carrera} = req.body;
+    try {
+        if (name && lastname && email && phone && distrito && carrera) {
+            await transporter.sendMail({
+                from: '"ProntoMedix" <prontomedix@gmail.com>', // sender address
+                to: `${email}, prontomedix@gmail.com`, // list of receivers
+                subject: "Solicitud de afiliación a prontomedix🔬", // 
+                html: `
+                    <b> Hola ${name} </b>
+
+                    <div>Te has inscrito al formulario de ProntoMedix con los siguientes datos:</div>
+                    <div><b>Nombre Completo:</b> ${name} ${lastname}</div>
+                    <div><b>Email:</b> ${email}</div>
+                    <div><b>Celular:</b> ${phone}</div>
+                    <div><b>Distrito:</b> ${distrito}</div>
+                    <div><b>Carrera:</b> ${carrera}</div>
+
+                    <div style="margin-top: 15px">Gracias  por enviar tu solicitud de afiliarte a nuestro equipo de salud , en breve te estaremos contactando para conocernos en una entrevista y podamos contarte el detalle de ser parte de Prontomedix.</div>
+                `
+            });
+            console.log('pedido hecho');
+        }else{
+            throw new Error('Falta ingresar algún dato');
+        }
+    } catch (error) {
+        next(error);
+    }
+});
 
 module.exports = router;

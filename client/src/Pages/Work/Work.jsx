@@ -4,7 +4,10 @@ import tecnologo from './../../img/tecnologo.webp'
 import messaging from './../../img/messaging.webp'
 import navigate from './../../img/navigate.webp'
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { work } from '../../redux/actions/actions';
 function Work() {
+    const dispatch = useDispatch();
     const carreras = getCarreras ();
     const [input, setInput] = useState({
         name: "",
@@ -44,25 +47,23 @@ function Work() {
             text += `. Muchas gracias! `;
             const encodeText = encodeURI(text);
             const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51973485394&text=${encodeText}`;
-            const newMessage = {
+            const emailWork = {
                 name: input.name,
                 lastname: input.lastname,
                 email: input.email,
                 phone: input.phone,
-                hora_seleccionada: input.horario,
                 distrito: input.distrito,
-                address: input.address,
-                referencia: input.referencia,
+                carrera: input.carrera
             }
-            console.log('newMessage',newMessage);
-            // dispatch(createCart(newOrder));
+            console.log('emailWork',emailWork);
+            dispatch(work(emailWork));
             setInput({
                 name: "",
                 lastname: "",
                 email: "",
                 phone: "",
                 distrito: "",
-                horario: "0"
+                carrera: "0"
             });
             alert('Tus datos se enviarán al WhatsApp y al correo inmediatamente.');
             window.open(urlWhatsapp);
