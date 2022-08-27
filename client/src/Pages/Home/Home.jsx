@@ -11,6 +11,7 @@ import agendar from '../../img/agendar.png';
 import datos_personales from '../../img/datos_personales.png';
 import muestras from '../../img/muestras.png';
 import resultados from '../../img/resultados.png';
+import logo from '../../img/logo_web.png';
 import Whatsapp from '../../components/Whatsapp/Whatshap';
 
 function Home() {
@@ -89,7 +90,7 @@ function Home() {
                     O escríbenos al Whatsapp 
                     <Whatsapp />
                 </p>
-            
+                <img src={logo} alt="logo" className={styles.display_none}/>
             </div>
             
         </div>
