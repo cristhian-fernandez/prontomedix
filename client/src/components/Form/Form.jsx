@@ -96,7 +96,7 @@ function Form(props) {
             text += `. *Distrito:* ${input.distrito}`;
             text += `. *Fecha de cita:* ${startDate.toISOString().split('T')[0]}`;
             text += `. *Hora de cita:* ${input.horario}`;
-            text += `. *Pago total:* ${props.pagoTotal}`;
+            text += `. *Pago total:* S/ ${props.pagoTotal}`;
             text += `. *Dirección:* ${input.address}`;
             if(input.referencia !=='') text += `. *Referencia:* ${input.referencia}`;
             text += `. Muchas gracias! `;
