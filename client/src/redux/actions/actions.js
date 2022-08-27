@@ -101,7 +101,7 @@ export const suscribe = (values) => {
 export const work = (values) => {
     return async () => {
         axios.post(urlTest+'/work', values)
-        .catch( e => console.log(e));
+        .catch( e => console.log(e)); 
     }
 }
 

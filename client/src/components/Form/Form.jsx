@@ -89,16 +89,16 @@ function Form(props) {
         const date = new Date();
         if(Object.entries(error).length === 0 && cart.length>0){
             let text = '';
-            text += `Hola! Prontomedix soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido:* `;
+            text += `Hola! Prontomedix soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido de análisis clínico:* `;
             text += cart.map(element => { return element.nombre_prueba}).join(', ');
             text += `. *Email:* ${input.email}`;
             text += `. *Celular:* ${input.phone}`;
             text += `. *Distrito:* ${input.distrito}`;
-            text += `. *Fecha entrega:* ${startDate.toISOString().split('T')[0]}`;
-            text += `. *Hora entrega:* ${input.horario}`;
+            text += `. *Fecha de cita:* ${startDate.toISOString().split('T')[0]}`;
+            text += `. *Hora de cita:* ${input.horario}`;
             text += `. *Pago total:* ${props.pagoTotal}`;
             text += `. *Dirección:* ${input.address}`;
-            text += `. *Referencia:* ${input.referencia}`;
+            if(input.referencia !=='') text += `. *Referencia:* ${input.referencia}`;
             text += `. Muchas gracias! `;
             const encodeText = encodeURI(text);
             const urlWhatsapp = `https://api.whatsapp.com/send?phone=+51973485394&text=${encodeText}`;
@@ -209,7 +209,7 @@ function Form(props) {
                         name='horario'
                         value={input.horario} 
                         onChange={onInputChange}>
-                            <option value={'0'} >Elige el tramo de horario de visita a domicilio</option>
+                            <option value={'0'} >Elige tramo de horario de visita a domicilio</option>
                             {
                                 rangeHour.map(hour => {
                                     return hour ? <option value={hour} key={hour}>{hour}</option> : ''

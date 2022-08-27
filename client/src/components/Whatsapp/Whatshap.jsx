@@ -12,7 +12,7 @@ function Whatsapp() {
     return (
         <div className={styles.whatsapp}>
             
-            <button onClick={onClick}><i class="fa-brands fa-whatsapp"></i></button>
+            <button onClick={onClick}><i className="fa-brands fa-whatsapp"></i></button>
         </div>
     );
 }
