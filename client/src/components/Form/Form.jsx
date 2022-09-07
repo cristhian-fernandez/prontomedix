@@ -300,6 +300,6 @@ export function validateInput (input){
 
 export function getDistritos (){
     const distritos = [
-        'San miguel','Santiago de Surco','Pueblo libre','Breña','Cercado','Magdalena','Jesus Maria','Miraflores','San isidro','Lince','San Borja ','La molina'];
+        'San miguel','Santiago de Surco','Pueblo libre','Breña','Cercado','Magdalena','Jesus Maria','Miraflores','San isidro','Lince','San Borja ','La molina','Otros'];
     return distritos;
 }
