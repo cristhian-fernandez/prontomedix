@@ -47,6 +47,21 @@ textarea{
     color: rgba(8,34,78,.9);
 }
 
+.form_check{
+    display: flex;
+}
+
+.form_check input{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form_check label{
+    text-align: left;
+    font-size: 14px;
+}
+
+
 @media only screen and (max-width: 650px) {
     .form_input {
         /* width: 300px; */

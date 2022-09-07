@@ -51,8 +51,10 @@ function Form(props) {
         distrito: "0",
         horario: "0",
         address: "",
-        referencia: ""
+        referencia: "",
+        checkbox: ""
     });
+    const [checked, setChecked] = useState(true);
     const [error, setError] = useState({
         name: "",
         lastname: "",
@@ -61,7 +63,8 @@ function Form(props) {
         distrito: "",
         horario: "",
         address: "",
-        referencia: ""
+        referencia: "",
+        checkbox: ""
     });
 
     const onChangeDate = (e) => {
@@ -87,7 +90,7 @@ function Form(props) {
     const onSubmit = (e) => {
         e.preventDefault();
         const date = new Date();
-        if(Object.entries(error).length === 0 && cart.length>0){
+        if(Object.entries(error).length === 0 && cart.length>0 && checked){
             let text = '';
             text += `Hola! Prontomedix soy *${input.name} ${input.lastname}*, quiero hacer el siguiente *Pedido de análisis clínico:* `;
             text += cart.map(element => { return element.nombre_prueba}).join(', ');
@@ -140,6 +143,7 @@ function Form(props) {
             if(error.distrito) return alert(error.distrito);
             if(error.address) return alert(error.address);
             if(cart.length === 0) return alert ('Seleccione al menos una análisis clínico');
+            if(!checked) return alert('Check en autorizar el envió de resultados')
         }
     }
     return (
@@ -235,6 +239,12 @@ function Form(props) {
                     </textarea>
                 </div>
 
+                <div className={`${styles.form_input} ${styles.form_check}`}>
+                    <input type="checkbox" name="checkbox" id="authorization" defaultChecked={checked} onChange={() => setChecked(!checked)}/>
+                    <label htmlFor="authorization">Autorizo el envió de los resultados de los análisis a mi correo electrónico y vía WhatsApp.</label>
+                    <p className={styles.danger}>{error.check}</p>
+                </div>
+
                 <button type="submit" className={styles.btn_order}>Enviar orden</button>
             </form>
         </div>
@@ -279,7 +289,7 @@ export function validateInput (input){
     // }
     if(input.address.length ===0){
         error.address = '* Dirección es requerida';
-      }
+    }
     if(!input.phone){
         error.phone = '* Celular es requerido';
     }else if(!/^[0-9]{9}/.test(input.phone)){
