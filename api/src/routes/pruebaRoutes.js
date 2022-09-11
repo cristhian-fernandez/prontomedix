@@ -57,6 +57,10 @@ router.post( '/' , async(req, res,next)=>{
                     <div><b>Dirección:</b> ${address}</div>
                     <div><b>Referencia:</b> ${referencia}</div>
                     <div><b>Pedido de análisis clínico:</b> ${bodyEmail}</div>
+                    <div>
+                        <input style="margin-top: 10px" type="checkbox" name="checkbox" checked>
+                        <label>Autorizo el envió de los resultados de los análisis a mi correo electrónico y vía WhatsApp.</label>
+                    </div>
                     <div style="margin-top: 15px">En minutos le estaremos enviando los datos del personal que le visitara para la toma de muestra en la fecha y hora que indico. Gracias por preferir Prontomedix!</div>
                 `
             });
