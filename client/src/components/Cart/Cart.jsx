@@ -5,7 +5,7 @@ import styles from './Cart.module.css';
 
 function Cart() {
     const cart = useSelector((state) => state.cart);
-    const monto_agregado = 35;
+    const monto_agregado = 40;
     let subtotal = 0;
     const dispatch = useDispatch();
     const onClickPlus = (id) => {
