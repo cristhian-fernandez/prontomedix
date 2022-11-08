@@ -1,13 +1,13 @@
 const getBodyEmail = (cart) => {
     let body = '';
     let subtotal = 0;
-    let toma = 35;
+    let toma = 40;
     cart.map(pedido => {
         subtotal += pedido.precio;
         body += `<div style='margin-left: 30px;'><b>Prueba:</b> ${pedido.nombre_prueba}</div>
                  <div style='margin-left: 30px;'><b>Precio:</b> S/ ${pedido.precio}.00</div>
                  <div style='margin-left: 30px;'><b>Cantidad:</b> ${pedido.cantidad}</div>
-                 <div style='margin-left: 30px;'>---------------------------</div>
+                 <div style='margin-left: 30px;'>-----------------------------</div>
                 `
     });
     body += `<div style='margin-left: 30px;'><b>Subtototal:</b> S/ ${subtotal}.00</div>`
