@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div className={styles.footer}>
                 <span className={styles.copyright}>
-                    Copyright © 2022 | Prontomedix.com
+                    Copyright © 2023 | Prontomedix.com
                 </span>
 
                 <div className={styles.social}>
