@@ -42,7 +42,7 @@ function Home() {
                 <h2 className={styles.subtittle}>¿Cómo Funciona ?</h2>
                 <div className={styles.seccion}>
                     <div className={styles.seccion_works}>
-                        <p>Elige tus pruebas,agéndalo, llena tus datos y dirección.</p>
+                        <p>Elige tus pruebas, cotiza,agéndalo, llena tus datos y dirección.</p>
                         <img src={agendar} alt="agendar" />
                     </div>
                     <div className={styles.seccion_works}>
