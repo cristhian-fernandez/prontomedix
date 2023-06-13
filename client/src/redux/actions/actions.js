@@ -15,7 +15,7 @@ import {
 import axios from "axios";
 
 // const urlTest = 'http://localhost:3001/api/tests';
-const urlTest = 'https://bdprontomedix.herokuapp.com/api/tests';
+const urlTest = 'https://prontomedix.herokuapp.com/api/tests';
 
 export const getAllTests = () => {
     
