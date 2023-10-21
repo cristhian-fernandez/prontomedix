@@ -38,7 +38,7 @@ function TestCard(props) {
                                 <div className={styles.testCard_descripcion}>
                                     <h2>{props.nombre}</h2>
                                     {
-                                        props.descripcion !== null ? <p>Incluye: ({props.descripcion})</p> : ''
+                                        props.descripcion !== null && props.descripcion !== '' ? <p>Incluye: ({props.descripcion})</p> : ''
                                     }
                                 </div>
                                 <p>S/ {props.precio} Soles</p>

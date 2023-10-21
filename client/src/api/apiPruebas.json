@@ -1,0 +1,1526 @@
+{
+    "data" : {
+        "pruebas": [
+            {
+                "id": "1",
+                "nombre_prueba": "Hemograma Completo",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "2",
+                "nombre_prueba": "Hemoglobina y hematocrito",
+                "descripcion": "",
+                "precio": "10",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "3",
+                "nombre_prueba": "Plaquetas",
+                "descripcion": "",
+                "precio": "18",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "4",
+                "nombre_prueba": "VSG (velocidad de sedimentación)",
+                "descripcion": "",
+                "precio": "18",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "5",
+                "nombre_prueba": "Reticulocitos",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "6",
+                "nombre_prueba": "Grupo sanguineo y factor RH",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "7",
+                "nombre_prueba": "Lamina periferica",
+                "descripcion": "",
+                "precio": "18",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "8",
+                "nombre_prueba": "Test de Coombs directo",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "9",
+                "nombre_prueba": "Test de Coombs indirecto",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "10",
+                "nombre_prueba": "Tiempo de coagulacion y sangria",
+                "descripcion": "",
+                "precio": "20",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "11",
+                "nombre_prueba": "Tiempo de protrombina",
+                "descripcion": "",
+                "precio": "33",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "12",
+                "nombre_prueba": "Timepo de trombina",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "13",
+                "nombre_prueba": "Tiempo parcial de tromboplastina",
+                "descripcion": "",
+                "precio": "46",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "14",
+                "nombre_prueba": "Fibrinogeno",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "15",
+                "nombre_prueba": "Fenomeno Le",
+                "descripcion": "",
+                "precio": "36",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "1",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "16",
+                "nombre_prueba": "Acido urico",
+                "descripcion": "",
+                "precio": "18",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "17",
+                "nombre_prueba": "Amilasa",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "18",
+                "nombre_prueba": "Lipasa",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "19",
+                "nombre_prueba": "Fosforo serico",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "20",
+                "nombre_prueba": "Calcio serico",
+                "descripcion": "",
+                "precio": "20",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "21",
+                "nombre_prueba": "Magnesio",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "22",
+                "nombre_prueba": "Colesterol total",
+                "descripcion": "",
+                "precio": "18",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "23",
+                "nombre_prueba": "Colesterol HDL",
+                "descripcion": "",
+                "precio": "24",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "24",
+                "nombre_prueba": "Colesterol LDL",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "25",
+                "nombre_prueba": "Colesterol VLDL",
+                "descripcion": "",
+                "precio": "32",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "26",
+                "nombre_prueba": "Trigliceridos",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "27",
+                "nombre_prueba": "CPK MB",
+                "descripcion": "",
+                "precio": "55",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "28",
+                "nombre_prueba": "CPK Total",
+                "descripcion": "",
+                "precio": "42",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "29",
+                "nombre_prueba": "Proteina C reactiva",
+                "descripcion": "",
+                "precio": "42",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "30",
+                "nombre_prueba": "Deshidrogenasa lactica",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "31",
+                "nombre_prueba": "Dimero D",
+                "descripcion": "",
+                "precio": "98",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "32",
+                "nombre_prueba": "Electrolitos",
+                "descripcion": "",
+                "precio": "70",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "33",
+                "nombre_prueba": "TGO (transaminasa glutámico oxalacética)",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "34",
+                "nombre_prueba": "TGP (transaminasa glutámico pirúvica)",
+                "descripcion": "",
+                "precio": "28",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "35",
+                "nombre_prueba": "Bilirrubinas totales y fraccionadas",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "36",
+                "nombre_prueba": "Gammaglutamil Transpeptidasa(GGTP)",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "37",
+                "nombre_prueba": "Fosfatasa alcalina",
+                "descripcion": "",
+                "precio": "24",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "38",
+                "nombre_prueba": "Proteinas totales y fraccionadas",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "39",
+                "nombre_prueba": "Proteinas totales",
+                "descripcion": "",
+                "precio": "20",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "40",
+                "nombre_prueba": "Albumina serica",
+                "descripcion": "",
+                "precio": "15",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "41",
+                "nombre_prueba": "Glucosa",
+                "descripcion": "",
+                "precio": "15",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "42",
+                "nombre_prueba": "Glucosa post prandial",
+                "descripcion": "",
+                "precio": "15",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "43",
+                "nombre_prueba": "Hemoglobina glicosilada",
+                "descripcion": "",
+                "precio": "48",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "44",
+                "nombre_prueba": "Urea",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "45",
+                "nombre_prueba": "Creatinina",
+                "descripcion": "",
+                "precio": "24",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "46",
+                "nombre_prueba": "Hierro serico",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "47",
+                "nombre_prueba": "B2 microglobulina",
+                "descripcion": "",
+                "precio": "62",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "48",
+                "nombre_prueba": "Saturacion de transferrina",
+                "descripcion": "",
+                "precio": "52",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "2",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "49",
+                "nombre_prueba": "Acido folico",
+                "descripcion": "",
+                "precio": "55",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "50",
+                "nombre_prueba": "Ferritina",
+                "descripcion": "",
+                "precio": "49",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "51",
+                "nombre_prueba": "Vitamina B12",
+                "descripcion": "",
+                "precio": "69",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "52",
+                "nombre_prueba": "Troponina T",
+                "descripcion": "",
+                "precio": "92",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "53",
+                "nombre_prueba": "Troponina I",
+                "descripcion": "",
+                "precio": "114",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "54",
+                "nombre_prueba": "ACTH",
+                "descripcion": "",
+                "precio": "78",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "55",
+                "nombre_prueba": "Cortisol AM",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "56",
+                "nombre_prueba": "Cortisol PM",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "57",
+                "nombre_prueba": "Progesterona",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "58",
+                "nombre_prueba": "Estradiol",
+                "descripcion": "",
+                "precio": "49",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "59",
+                "nombre_prueba": "FSH",
+                "descripcion": "",
+                "precio": "50",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "60",
+                "nombre_prueba": "LH",
+                "descripcion": "",
+                "precio": "59",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "61",
+                "nombre_prueba": "Prolactina",
+                "descripcion": "",
+                "precio": "50",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "62",
+                "nombre_prueba": "T3",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "63",
+                "nombre_prueba": "T4",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "64",
+                "nombre_prueba": "T4 LIBRE",
+                "descripcion": "",
+                "precio": "42",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "65",
+                "nombre_prueba": "TSH Ultrasensible",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "66",
+                "nombre_prueba": "T3 Libre",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "67",
+                "nombre_prueba": "Estradiol libre",
+                "descripcion": "",
+                "precio": "100",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "68",
+                "nombre_prueba": "Procalcitonina",
+                "descripcion": "",
+                "precio": "240",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "69",
+                "nombre_prueba": "Tetosterona libre",
+                "descripcion": "",
+                "precio": "79",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "70",
+                "nombre_prueba": "Tetosterona total",
+                "descripcion": "",
+                "precio": "49",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "71",
+                "nombre_prueba": "HCG - Beta cuantitativo",
+                "descripcion": "",
+                "precio": "52",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "72",
+                "nombre_prueba": "HCG - Beta cualitativo",
+                "descripcion": "",
+                "precio": "39",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "73",
+                "nombre_prueba": "Insulina basal",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "74",
+                "nombre_prueba": "Insulina post prandial",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "75",
+                "nombre_prueba": "Vitamina D",
+                "descripcion": "",
+                "precio": "199",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "76",
+                "nombre_prueba": "Alfafetoproteinas ( AFP)",
+                "descripcion": "",
+                "precio": "69",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "77",
+                "nombre_prueba": "Antigeno Carcinoma Embrionario (CEA)",
+                "descripcion": "",
+                "precio": "48",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "78",
+                "nombre_prueba": "Antigeno Prostatico ( PSA)",
+                "descripcion": "",
+                "precio": "60",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "79",
+                "nombre_prueba": "Ca 125 Ovario",
+                "descripcion": "",
+                "precio": "69",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "80",
+                "nombre_prueba": "Ca 15.3 Mama",
+                "descripcion": "",
+                "precio": "60",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "81",
+                "nombre_prueba": "Ca 19.9 Pancreas",
+                "descripcion": "",
+                "precio": "60",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "82",
+                "nombre_prueba": "Ca 72.4 Estomago",
+                "descripcion": "",
+                "precio": "85",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "83",
+                "nombre_prueba": "Dosaje IgE total",
+                "descripcion": "",
+                "precio": "55",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "84",
+                "nombre_prueba": "Helicobacter Pylori IgG o IgM",
+                "descripcion": "",
+                "precio": "70",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "85",
+                "nombre_prueba": "Aglutinaciones en lamina",
+                "descripcion": "",
+                "precio": "42",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "86",
+                "nombre_prueba": "ANCA - Anti neutrofilos",
+                "descripcion": "",
+                "precio": "75",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "87",
+                "nombre_prueba": "Anti Hepatitis C",
+                "descripcion": "",
+                "precio": "60",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "88",
+                "nombre_prueba": "Anti HIV",
+                "descripcion": "",
+                "precio": "49",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "89",
+                "nombre_prueba": "Anti HTLV I y II",
+                "descripcion": "",
+                "precio": "98",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "90",
+                "nombre_prueba": "Anti Tiroglobulina ( ANTI ATG)",
+                "descripcion": "",
+                "precio": "52",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "91",
+                "nombre_prueba": "Anti Tiroperoxidasa ( ANTI TPO)",
+                "descripcion": "",
+                "precio": "65",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "92",
+                "nombre_prueba": "Anticuerpos Antinucleares (ANA)",
+                "descripcion": "",
+                "precio": "50",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "93",
+                "nombre_prueba": "Antiestreptolisina ASO",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "94",
+                "nombre_prueba": "Complemento C3",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "95",
+                "nombre_prueba": "Complemento C4",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "96",
+                "nombre_prueba": "Factor reumatoideo cualitativo",
+                "descripcion": "",
+                "precio": "22",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "97",
+                "nombre_prueba": "FTA ABS",
+                "descripcion": "",
+                "precio": "55",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "98",
+                "nombre_prueba": "HBsAg antigeno Australiano",
+                "descripcion": "",
+                "precio": "59",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "99",
+                "nombre_prueba": "Hepatitis A , HAV IgM",
+                "descripcion": "",
+                "precio": "75",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "100",
+                "nombre_prueba": "Hepatitis A, Anticuerpos totales",
+                "descripcion": "",
+                "precio": "64",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "101",
+                "nombre_prueba": "Hepatitis B Anti core total",
+                "descripcion": "",
+                "precio": "62",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "102",
+                "nombre_prueba": "RPR",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "103",
+                "nombre_prueba": "Tiroglobulina",
+                "descripcion": "",
+                "precio": "70",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "104",
+                "nombre_prueba": "VDRL",
+                "descripcion": "",
+                "precio": "32",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "105",
+                "nombre_prueba": "Panel de alergia (35 alergenos)",
+                "descripcion": "",
+                "precio": "229",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "106",
+                "nombre_prueba": "Toxoplasma IgM",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "107",
+                "nombre_prueba": "Rubeola IgM",
+                "descripcion": "",
+                "precio": "44",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "108",
+                "nombre_prueba": "Citomegalovirus IgM",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "109",
+                "nombre_prueba": "Herpes I-II IgM",
+                "descripcion": "",
+                "precio": "54",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "110",
+                "nombre_prueba": "Toxoplasma IgG",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "111",
+                "nombre_prueba": "Rubeola IgG",
+                "descripcion": "",
+                "precio": "44",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "112",
+                "nombre_prueba": "Citomegalovirus IgG",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "113",
+                "nombre_prueba": "Herpes I-II IgG",
+                "descripcion": "",
+                "precio": "54",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "3",
+                "examenMedicoId": "1"
+            },
+            {
+                "id": "114",
+                "nombre_prueba": "Examen completo de orina",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "4",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "115",
+                "nombre_prueba": "Microalbuminuria en orina simple",
+                "descripcion": "",
+                "precio": "62",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "4",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "116",
+                "nombre_prueba": "Proteinuria en orina simple",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "4",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "117",
+                "nombre_prueba": "Creatinina en orina simple",
+                "descripcion": "",
+                "precio": "33",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "4",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "118",
+                "nombre_prueba": "Drogas de Abuso (Panel 5D",
+                "descripcion": "",
+                "precio": "154",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "4",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "119",
+                "nombre_prueba": "Depuracion de creatinina",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "120",
+                "nombre_prueba": "Proteinuria de 24 horas",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "121",
+                "nombre_prueba": "Microalbuminuria de 24 horas",
+                "descripcion": "",
+                "precio": "62",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "122",
+                "nombre_prueba": "Calcio en orina de 24 horas",
+                "descripcion": "",
+                "precio": "25",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "123",
+                "nombre_prueba": "Fosforo en orina de 24 horas",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "124",
+                "nombre_prueba": "Creatinina, orina 24 horas",
+                "descripcion": "",
+                "precio": "35",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "5",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "125",
+                "nombre_prueba": "Urocultivo",
+                "descripcion": "",
+                "precio": "65",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "2"
+            },
+            {
+                "id": "126",
+                "nombre_prueba": "Coprocultivo",
+                "descripcion": "",
+                "precio": "74",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "127",
+                "nombre_prueba": "Cultivo de hongos",
+                "descripcion": "",
+                "precio": "100",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "128",
+                "nombre_prueba": "Coprofuncional",
+                "descripcion": "",
+                "precio": "45",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "129",
+                "nombre_prueba": "Thevenon en heces",
+                "descripcion": "",
+                "precio": "16",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "130",
+                "nombre_prueba": "Thevenon en heces 3 muestras",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "131",
+                "nombre_prueba": "BK 1 muestra",
+                "descripcion": "",
+                "precio": "30",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "132",
+                "nombre_prueba": "BK 3 muestras",
+                "descripcion": "",
+                "precio": "80",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "133",
+                "nombre_prueba": "Reaccion inflamatoria en heces",
+                "descripcion": "",
+                "precio": "24",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "134",
+                "nombre_prueba": "Campylobacter examen directo Gram",
+                "descripcion": "",
+                "precio": "42",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "135",
+                "nombre_prueba": "Hongos examen directo",
+                "descripcion": "",
+                "precio": "29",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "6",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "136",
+                "nombre_prueba": "Parasitologico directo",
+                "descripcion": "",
+                "precio": "15",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "7",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "137",
+                "nombre_prueba": "Parasitologico directo 3 muestras",
+                "descripcion": "",
+                "precio": "40",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "7",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "138",
+                "nombre_prueba": "Test de Graham",
+                "descripcion": "",
+                "precio": "10",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "7",
+                "examenMedicoId": "3"
+            },
+            {
+                "id": "139",
+                "nombre_prueba": "Hisopado nasofaringeo molecular",
+                "descripcion": "",
+                "precio": "190",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "8",
+                "examenMedicoId": "4"
+            },
+            {
+                "id": "140",
+                "nombre_prueba": "Perfil Lipidico",
+                "descripcion": "Colesterol total, Colesterol HDL, Colesterol LDL, Colesterol VLDL, Trigliceridos.",
+                "precio": "129",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "141",
+                "nombre_prueba": "Perfil Hepático",
+                "descripcion": "TGO (transaminasa glutámico oxalacética), TGP (transaminasa glutámico pirúvica), Bilirrubinas totales y fraccionadas  , Gammaglutamil Transpeptidasa(GGTP), Fosfatasa alcalina, Proteinas totales y fraccionadas.",
+                "precio": "194",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "142",
+                "nombre_prueba": "Perfil Hormonal Femenino",
+                "descripcion": "Estradiol, FSH, LH, Prolactina.",
+                "precio": "203",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "143",
+                "nombre_prueba": "Perfil Tiroideo",
+                "descripcion": "T3, T4, T4 LIBRE, TSH Ultrasensible.",
+                "precio": "172",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "144",
+                "nombre_prueba": "Perfil de Anemia ",
+                "descripcion": "Acido Folico, Ferritina, Vitamina B12, Hemograma Completo, Lamina periferica, Hierro serico.",
+                "precio": "220",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "145",
+                "nombre_prueba": "Perfil TORCH IgM",
+                "descripcion": "Toxoplasma IgM, Rubeola IgM, Citomegalovirus IgM, Herpes I-II IgM.",
+                "precio": "358",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "146",
+                "nombre_prueba": "Perfil TORCH IgG",
+                "descripcion": "Toxoplasma IgG, Rubeola IgG, Citomegalovirus IgG, Herpes I-II IgG.",
+                "precio": "183",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "147",
+                "nombre_prueba": "Perfil Renal",
+                "descripcion": "Urea, Creatinina, Examen completo de orina , Depuracion de creatinina , Proteinuria de 24 horas.",
+                "precio": "311",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "148",
+                "nombre_prueba": "Perfil de alergia",
+                "descripcion": "Dosaje IgE total, Panel de alergia (35 alergenos)",
+                "precio": "117",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "149",
+                "nombre_prueba": "Perfil Pre- Natal",
+                "descripcion": "Hemograma Completo, Glucosa, Urea, Creatinina, Examen completo de orina , Grupo sanguineo y factor RH, Anti HIV ,  RPR.",
+                "precio": "308",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "150",
+                "nombre_prueba": "Perfil de Coagulacion",
+                "descripcion": "Plaquetas, Tiempo de coagulacion y sangria, Tiempo de protrombina, Tiempo parcial de tromboplastina , Fibrinogeno.",
+                "precio": "147",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "151",
+                "nombre_prueba": "Perfil Pre Operatorio",
+                "descripcion": "Hemograma Completo, Glucosa, Urea, Creatinina, Examen completo de orina , Grupo sanguineo y factor RH, Anti HIV ,  RPR, Tiempo de coagulacion y sangria, HBsAg antigeno Australiano.",
+                "precio": "383",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            },
+            {
+                "id": "152",
+                "nombre_prueba": "Perfil Reumatologico",
+                "descripcion": "Hemograma Completo, Fenomeno Le, Acido urico, Proteina C reactiva, VSG (velocidad de sedimentación), Anticuerpos  Antinucleares (ANA), Factor reumatoideo cualitativo.",
+                "precio": "208",
+                "stock": "",
+                "estado": "1",
+                "tipoPruebaId": "",
+                "examenMedicoId": "5"
+            }
+        ]
+    }
+}

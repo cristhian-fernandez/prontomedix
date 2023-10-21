@@ -1,0 +1,54 @@
+{
+    "data" : {
+        "tipoPrueba": [
+            {
+                "id": "1",
+                "tipo_prueba": "Hematologia",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "2",
+                "tipo_prueba": "Bioquimica",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "3",
+                "tipo_prueba": "Inmunologia",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "4",
+                "tipo_prueba": "Urianalisis",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "5",
+                "tipo_prueba": "Orina de 24 horas",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "6",
+                "tipo_prueba": "Microbiologia",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "7",
+                "tipo_prueba": "Parasitologia",
+                "descripcion": "",
+                "estado": 1
+            },
+            {
+                "id": "8",
+                "tipo_prueba": "Prueba Covid",
+                "descripcion": "",
+                "estado": 1
+            }
+        ]
+    }
+}

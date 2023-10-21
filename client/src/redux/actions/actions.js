@@ -11,26 +11,42 @@ import {
     CLEAR_CART,
     EMAIL_SUSCRIBE
 } from "../constants/constants";
+import apiPruebas from './../../api/apiPruebas.json'
 
 import axios from "axios";
 
 // const urlTest = 'http://localhost:3001/api/tests';
 const urlTest = 'https://bdprontomedix.herokuapp.com/api/tests';
 
-export const getAllTests = () => {
+// export const getAllTests = () => {
     
-    return async (dispatch) => {
-        axios.get(urlTest)
-        .then(responde => {
+//     return async (dispatch) => {
+//         axios.get(urlTest)
+//         .then(responde => {
             
-            dispatch({
-                type : GET_ALL_TESTS,
-                payload : responde.data
-            })
-        })
-        .catch( e => console.log(e)); 
-    }
-}
+//             dispatch({
+//                 type : GET_ALL_TESTS,
+//                 payload : responde.data
+//             })
+//         })
+//         .catch( e => console.log(e)); 
+//     }
+// }
+
+export const getAllTests = () => {
+    return async (dispatch) => {
+      try {
+        const response = apiPruebas;
+        dispatch({
+          type: GET_ALL_TESTS,
+          payload: response.data.pruebas,
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+  };
+
 
 export const searchTests = (search) => {
     return {

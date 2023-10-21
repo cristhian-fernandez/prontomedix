@@ -1,0 +1,32 @@
+{
+    "data" : {
+        "examenMedico": [
+            {
+                "id": "1",
+                "examen_medico": "Examen de Sangre",
+                "descripcion": ""
+            },
+            {
+                "id": "2",
+                "examen_medico": "Examen de Orina",
+                "descripcion": ""
+            },
+            {
+                "id": "3",
+                "examen_medico": "Otros",
+                "descripcion": ""
+            },
+            {
+                "id": "4",
+                "examen_medico": "Examen Covid",
+                "descripcion": ""
+            },
+            {
+                "id": "5",
+                "examen_medico": "Perfiles",
+                "descripcion": ""
+            }
+        ]
+    }
+}
+    

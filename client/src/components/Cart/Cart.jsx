@@ -31,7 +31,7 @@ function Cart() {
                                 <div>
                                     <h2>{test.nombre_prueba}</h2>
                                     {
-                                        test.descripcion !== null ? <p>Incluye: ({test.descripcion})</p> : ''
+                                        test.descripcion !== null && test.descripcion !== '' ? <p>Incluye: ({test.descripcion})</p> : ''
                                     }
                                     <p>S/ {test.precio} Soles</p>
                                 </div>
