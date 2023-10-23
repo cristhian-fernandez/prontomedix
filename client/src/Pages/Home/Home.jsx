@@ -34,8 +34,8 @@ function Home() {
     return (
         <div className={styles.home}>
             <div className={styles.body}>
-                <h1 className={styles.tittle}>Agenda tu análisis clínico de laboratorio a domicilio en segundos</h1>
-                <h2 className={styles.description}>Evita perder tiempo en las colas, tramites, no corras riesgos de contagios y contaminacion en clinicas, laboratorios y aglomeraciones</h2>
+                <h1 className={`${styles.tittle} ${styles.animation}`}>Agenda tu análisis clínico de laboratorio a domicilio en segundos</h1>
+                <h2 className={`${styles.description} ${styles.animation}`}>Evita perder tiempo en las colas, tramites, no corras riesgos de contagios y contaminacion en clinicas, laboratorios y aglomeraciones</h2>
                 <div className={`${styles.seccion_center} ${styles.bottom_30} ${styles.top_30}`}>
                     <a className={styles.btn_cotiza} href="#agrega">Cotiza y agenda ya</a>
                 </div>

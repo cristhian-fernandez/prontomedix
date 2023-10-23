@@ -233,3 +233,29 @@
         width: 22%;
     }
 }
+
+.animation {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: slideIn 1s forwards, fadeIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
