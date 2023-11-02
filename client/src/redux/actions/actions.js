@@ -17,7 +17,7 @@ import axios from "axios";
 
 // const urlTest = 'http://localhost:3001/api/tests';
 // const urlTest = 'https://bdprontomedix.herokuapp.com/api/tests';
-const urlTest = 'https://api-prontomedix-cristhian-fernandez.vercel.app//api/tests';
+const urlTest = 'https://api-prontomedix-cristhian-fernandez.vercel.app/api/tests';
 
 // export const getAllTests = () => {
     
