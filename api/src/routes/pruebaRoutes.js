@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const {Prueba} = require('../db'); 
+// const {Prueba} = require('../db'); 
 const axios = require('axios'); 
 const { transporter } = require('../config/mailer');
 const { getBodyEmail } = require('../controller/pruebaController');
@@ -9,35 +9,35 @@ const router = Router();
 
 //  http://localhost:3001/api/prueba/
 
-router.get( '/' , async(req, res)=>{
-    const {code} = req.query;
-    try {
-        if (code) {
-            let prueba = await Prueba.findByPk(code);
-            res.status(200).json(prueba);
-        } else {
-            let pruebas = await Prueba.findAll();
-            res.status(200).json(pruebas);
-        }
-    } catch (error) {
-        res.json(error.toString());
-    }
-});
+// router.get( '/' , async(req, res)=>{
+//     const {code} = req.query;
+//     try {
+//         if (code) {
+//             let prueba = await Prueba.findByPk(code);
+//             res.status(200).json(prueba);
+//         } else {
+//             let pruebas = await Prueba.findAll();
+//             res.status(200).json(pruebas);
+//         }
+//     } catch (error) {
+//         res.json(error.toString());
+//     }
+// });
 
-router.get( '/examen' , async(req, res)=>{
-    const {id} = req.query;
-    const condition = {where: {"examenMedicoId":id}}
-    try {
-        if (id) {
-            let prueba = await Prueba.findAll(condition);
-            res.status(200).json(prueba);
-        } else {
-            res.json(error.toString());
-        }
-    } catch (error) {
-        res.json(error.toString());
-    }
-});
+// router.get( '/examen' , async(req, res)=>{
+//     const {id} = req.query;
+//     const condition = {where: {"examenMedicoId":id}}
+//     try {
+//         if (id) {
+//             let prueba = await Prueba.findAll(condition);
+//             res.status(200).json(prueba);
+//         } else {
+//             res.json(error.toString());
+//         }
+//     } catch (error) {
+//         res.json(error.toString());
+//     }
+// });
 
 router.post( '/' , async(req, res,next)=>{ 
     const { name, lastname,email,phone,distrito,address,cart,date,referencia, fecha_seleccionada, hora_seleccionada} = req.body;
