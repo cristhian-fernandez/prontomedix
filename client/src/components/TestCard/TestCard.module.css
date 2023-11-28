@@ -86,6 +86,21 @@
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 400px) {
+  .testCard {
+    padding-left: 0;
+    padding-right: 8px;
+  }
+
+  .testCard h2{
+    font-size: 15px;
+  }
+  .add{
+    font-size: 14px;
+    width: 80px;
+  }
+}
+
 @media only screen and (max-width: 650px) {
     .testCard_descripcion{
         flex-direction: column;
