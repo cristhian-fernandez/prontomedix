@@ -30,7 +30,7 @@ picture {
 }
 
 picture img {
-    width: 250px;
+    width: 140px;
 }
 
 .nav_right{
@@ -59,6 +59,17 @@ picture img {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 450px) {
+  picture img {
+      width: 180px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  picture img {
+      width: 250px;
+  }
+}
+
 @media only screen and (max-width: 650px) {
     .nav {
         padding: 10px 10px;
@@ -68,8 +79,5 @@ picture img {
     }
     .nav_left nav a:first-child {
         display: none;
-    }
-    picture img {
-        width: 200px;
     }
 }
